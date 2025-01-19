@@ -1,0 +1,13 @@
+
+  /* Ensure Swiper's background is transparent */
+.mySwiper {
+    background: transparent; /
+  }
+  
+  .mySwiper .swiper-slide {
+    background: transparent; 
+  }
+  
+
+ 
+  

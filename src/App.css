@@ -1,0 +1,98 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: rgb(70, 68, 68);
+}
+/* hero  */
+.hero{
+  min-height: 85vh;
+}
+.bg
+{
+  background-color: rgba(0, 0, 0, 0.411);
+}
+.navbar {
+  background: rgba(0, 0, 0, 0.486);
+  color: rgb(155, 10, 10);
+}
+.hero-content {
+  position: relative;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* hero end  */
+
+/* movie card  */
+.card {
+  background: rgb(46, 43, 43);
+}
+
+.swiper-slide {
+  background: transparent; 
+}
+
+.swiper-slide .card {
+  width: 100%; 
+  height: auto;
+  background-color: #222;
+  color: white; 
+  border-radius: 10px; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
+}
+
+/* Trailer  */
+.trailer-card .left {
+  min-width: 300px;
+}
+.trailer-card .left img {
+  width: 100%;
+  border-radius: 1rem;
+}
+.trailer-card .right {
+  min-width: 340px;
+}
+
+.txt-color {
+  color: rgb(136, 136, 136);
+}
+.line {
+  min-width: 19rem;
+  height: 1px;
+  background: white;
+}
+
+.slide-card{
+  height: 450px;
+}
+
+@media (max-width:768px) {
+  .trailer-item{
+     flex-wrap: wrap;
+  }
+}
+
+/* video  */
+.responsive-iframe-container {
+  position: relative;
+  width: 90%; /* Full width */
+  padding-top: 38%; /* Aspect ratio 16:9 (height/width * 100) */
+  overflow: hidden;
+  margin:  0 auto;
+}
+
+.responsive-iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Make the iframe fill the container */
+  height: 100%; /* Make the iframe fill the container */
+  border: none;
+}
+
+
+/* Trailer end  */
