@@ -2,7 +2,7 @@ import React from 'react'
 import './App.css'
 import Hero from './components/Hero'
 import Trending from './components/Trending'
-import { Route, Routes } from 'react-router-dom'
+import { Route, Router, Routes } from 'react-router-dom'
 import TrailerCard from './components/TrailerCard'
 import UpComing from './components/UpComing'
 import NowInCinemas from './components/NowInCinemas'
@@ -29,6 +29,7 @@ const App = () => {
         <Route path='/whatspopular/:id' element={<TrailerCard/>}/>
         <Route path='/searched' element={<SearchedMovies/>}/>
         <Route path='/searched/:id' element={<TrailerCard/>}/>
+        <Route  path='/similar/:id' element={<TrailerCard/>}/>
       </Routes>
     </>
   )
